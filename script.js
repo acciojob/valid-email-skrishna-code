@@ -1,6 +1,6 @@
 function validEmail(str) {
   //your JS code here.
-	let check="/^[\w.-]+@[\w-]+(?:\.[\w-]+)+$/";
+	let check="/^[A-Za-z0-9]+(?:[._-][A-Za-z0-9]+)*@[A-Za-z0-9]+(?:[.-][A-Za-z0-9]+)*\.[A-Za-z]{2,3}$/";
 	 return check.test(str);
 }
 
